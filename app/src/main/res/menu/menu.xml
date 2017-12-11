@@ -2,9 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+<item
+    android:id="@+id/action_settings"
+    android:icon="@drawable/ic_settings_black_24dp"
+    app:showAsAction="ifRoom"
+    android:title="settings">
+    <menu android:id="@+id/sub_menu_settings">
+        <item android:id="@+id/theme"
+            android:title="@string/theme" />
+
+        <item android:id="@+id/about"
+            android:title="@string/about" />
+    </menu>
+</item>
     <item
         android:id="@+id/action_more"
-        android:icon="@drawable/ic_view_headline_black_24dp"
+        android:icon="@drawable/ic_menu_black_24dp"
         app:showAsAction="ifRoom"
         android:title="More">
         <menu android:id="@+id/sub_menu_more">
@@ -21,17 +35,4 @@ xmlns:app="http://schemas.android.com/apk/res-auto">
                 android:title="@string/delete_list" />
         </menu>
     </item>
-<item
-    android:id="@+id/action_settings"
-    android:icon="@drawable/ic_more_vert_black_24dp"
-    app:showAsAction="ifRoom"
-    android:title="settings">
-    <menu android:id="@+id/sub_menu_settings">
-        <item android:id="@+id/theme"
-            android:title="@string/theme" />
-
-        <item android:id="@+id/about"
-            android:title="@string/about" />
-    </menu>
-</item>
 </menu>

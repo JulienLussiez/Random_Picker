@@ -46,4 +46,31 @@
         <item name="colorControlNormal">#5c6bc0</item>
     </style>
 
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#42a5f5</item>
+        <item name="colorPrimaryDark">#0077c2</item>
+        <item name="colorAccent">#80d6ff</item>
+        <item name="colorControlHighlight">#42a5f5</item>
+        <item name="colorControlNormal">#42a5f5</item>
+    </style>
+
+    <style name="CyanTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#26c6da</item>
+        <item name="colorPrimaryDark">#0095a8</item>
+        <item name="colorAccent">#6ff9ff</item>
+        <item name="colorControlHighlight">#26c6da</item>
+        <item name="colorControlNormal">#26c6da</item>
+    </style>
+
+    <style name="GreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#66bb6a</item>
+        <item name="colorPrimaryDark">#338a3e</item>
+        <item name="colorAccent">#98ee99</item>
+        <item name="colorControlHighlight">#66bb6a</item>
+        <item name="colorControlNormal">#66bb6a</item>
+    </style>
+
 </resources>

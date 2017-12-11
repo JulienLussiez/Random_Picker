@@ -14,6 +14,26 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Random Picker"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:typeface="normal" />
+
+        </android.support.v7.widget.Toolbar>
+
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

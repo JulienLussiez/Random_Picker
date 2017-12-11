@@ -1,23 +1,21 @@
 package com.my.randompicker;
 
-import android.app.*;
-import android.os.*;
+import android.app.Activity;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.*;
-import android.view.View.*;
-import android.widget.*;
-import android.content.*;
-import android.content.ClipboardManager;
-import android.graphics.*;
-import android.media.*;
-import android.net.*;
-import android.text.*;
-import android.util.*;
-import android.webkit.*;
-import android.animation.*;
-import android.view.animation.*;
-import java.util.*;
-import java.text.*;
+import android.util.SparseBooleanArray;
+import android.util.TypedValue;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 
 
@@ -36,10 +34,32 @@ public class ListnameActivity extends AppCompatActivity {
 	private SharedPreferences deletedListname;
 	private SharedPreferences mode;
 
+	private SharedPreferences themeColor;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		themeColor = getSharedPreferences("themeColor", Activity.MODE_PRIVATE);
+		switch (themeColor.getString("themeColor", "")) {
+			case "":
+				break;
+			case "red":
+				setTheme(R.style.RedTheme);
+				break;
+			case "pink":
+				setTheme(R.style.PinkTheme);
+				break;
+			case "deepPurple":
+				setTheme(R.style.DeepPurpleTheme);
+				break;
+			case "indigo":
+				setTheme(R.style.IndigoTheme);
+				break;
+			case "blue":
+				setTheme(R.style.BlueTheme);
+				break;
+		}
 		setContentView(R.layout.listname);
 		initialize();
 		initializeLogic();
