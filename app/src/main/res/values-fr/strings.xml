@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="at_least_one">Ajoutez au moins un item</string>
+    <string name="new_list">Nouvelle Liste</string>
+    <string name="save_list">Sauvegarder</string>
+    <string name="load_list">Charger</string>
+    <string name="about">A propos</string>
+    <string name="random_pick">Sélection Aléatoire</string>
+    <string name="delete_list">Supprimer</string>
+    <string name="add_item">Ajouter un élément</string>
+    <string name="add_listname">Ajouter un nom de liste</string>
+    <string name="about_text">Cette application permet de sélectionner aléatoirement un élément dans une liste personnalisée.\n\nConçue par Julien Lussiez</string>
+    <string name="list_loaded">Liste chargée</string>
+    <string name="list_saved">Liste sauvegardée</string>
+    <string name="list_deleted">Liste supprimée</string>
+    <string name="list_updated">Liste mise à jour</string>
+    <string name="theme">Theme</string>
+</resources>

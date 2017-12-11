@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_item">Aggiungi elemento</string>
+    <string name="about">Informazioni</string>
+    <string name="about_text">Questa applicazione è fatta per scegliere un elemento casuale in un elenco personalizzato.  Progettato da Julien Lussiez</string>
+    <string name="add_listname">Aggiungi un nome di lista</string>
+    <string name="at_least_one">Aggiungi almeno un elemento</string>
+    <string name="delete_list">Cancellare</string>
+    <string name="list_deleted">Elenco cancellato</string>
+    <string name="list_loaded">Elenco caricato</string>
+    <string name="list_saved">Elenco salvato</string>
+    <string name="list_updated">Elenco aggiornato</string>
+    <string name="load_list">Carica</string>
+    <string name="new_list">Nuova lista</string>
+    <string name="random_pick">Scelta casuale</string>
+    <string name="save_list">Salvare</string>
+</resources>

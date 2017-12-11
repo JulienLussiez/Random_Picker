@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_item">Artikel hinzufügen</string>
+    <string name="about">Über</string>
+    <string name="about_text">Diese Anwendung wird erstellt, um ein zufälliges Element in einer benutzerdefinierten Liste auszuwählen. Entworfen von Julien Lussiez</string>
+    <string name="add_listname">einen Listennamen hinzufügen</string>
+    <string name="at_least_one">füge mindestens einen Artikel hinzu</string>
+    <string name="delete_list">löschen</string>
+    <string name="list_deleted">Liste gelöscht</string>
+    <string name="list_loaded">Liste geladen</string>
+    <string name="list_saved">Liste gespeichert</string>
+    <string name="list_updated">Liste aktualisiert</string>
+    <string name="load_list">lade Datei</string>
+    <string name="new_list">neue Liste</string>
+    <string name="random_pick">zufällige Auswahl</string>
+    <string name="save_list">Liste speichern</string>
+</resources>

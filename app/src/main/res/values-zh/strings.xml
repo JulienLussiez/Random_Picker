@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">关于</string>
+    <string name="about_text">这个应用程序让你随机选择一个自定义列表中的项目。 由Julien Lussiez设计</string>
+    <string name="add_item">新增项目</string>
+    <string name="add_listname">添加一个列表名称</string>
+    <string name="at_least_one">添加至少一个项目</string>
+    <string name="delete_list">删除文件</string>
+    <string name="list_deleted">列表已删除</string>
+    <string name="list_loaded">列表已加载</string>
+    <string name="list_saved">列表保存</string>
+    <string name="list_updated">列表已更新</string>
+    <string name="load_list">加载文件</string>
+    <string name="new_list">新名单</string>
+    <string name="random_pick">随机选取器</string>
+    <string name="save_list">保存存档</string>
+</resources>

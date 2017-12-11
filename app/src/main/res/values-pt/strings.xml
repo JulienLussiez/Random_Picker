@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">Sobre</string>
+    <string name="about_text">Esta aplicação é feita para escolher um item aleatório em uma lista personalizada. Projetado por Julien Lussiez</string>
+    <string name="add_listname">Adicione um nome da lista</string>
+    <string name="add_item">Adicionar elemento</string>
+    <string name="at_least_one">Adicione pelo menos um item</string>
+    <string name="delete_list">Excluir</string>
+    <string name="list_deleted">Lista excluída</string>
+    <string name="list_loaded">Lista carregada</string>
+    <string name="list_saved">Lista salva</string>
+    <string name="list_updated">Lista atualizada</string>
+    <string name="load_list">Carregar</string>
+    <string name="new_list">Nova lista</string>
+    <string name="random_pick">Escolha aleatória</string>
+    <string name="save_list">Salvar</string>
+</resources>

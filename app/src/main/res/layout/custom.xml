@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="252dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:rowOrderPreserved="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#ef534e"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/pink"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#ec407a"
+            android:elevation="0dp" />
+
+
+        <Button
+            android:id="@+id/deepPurple"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#7e57c2"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/indigo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#5c6bc0"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#42a5f5"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/cyan"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#26c6da"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/teal"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#26a69a"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/green"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#66bb6a"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#ffee58"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/Orange"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#ffa726"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/deepOrange"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#ff7043"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/brown"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#8d6e63"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/grey"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#bdbdbd"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/blueGrey"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#78909c"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/deepBlueGrey"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#37474f"
+            android:elevation="0dp" />
+
+        <Button
+            android:id="@+id/black"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custom_shape"
+            android:backgroundTint="#000000"
+            android:elevation="0dp" />
+
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

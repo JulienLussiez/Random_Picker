@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_item">اضافة عنصر</string>
+    <string name="about">عن</string>
+    <string name="about_text">يرصد هذا التطبيق لاختيار عنصر عشوائي في قائمة مخصصة. صممه جوليان لوسيز</string>
+    <string name="add_listname">إضافة اسم قائمة</string>
+    <string name="at_least_one">أضف عنصرا واحدا على الأقل</string>
+    <string name="delete_list">حذف</string>
+    <string name="list_deleted">تم حذف القائمة</string>
+    <string name="list_loaded">قائمة تحميل</string>
+    <string name="list_saved">تم حفظ القائمة</string>
+    <string name="list_updated">تم تحديث القائمة</string>
+    <string name="load_list">تحميل الملف</string>
+    <string name="new_list">قائمة جديدة</string>
+    <string name="random_pick">اختيار عشوائي</string>
+    <string name="save_list">حفظ الملف</string>
+</resources>

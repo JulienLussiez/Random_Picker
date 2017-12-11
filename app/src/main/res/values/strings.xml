@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="at_least_one">Add at least one item</string>
+    <string name="new_list">New List</string>
+    <string name="save_list">Save</string>
+    <string name="load_list">Load</string>
+    <string name="about">About</string>
+    <string name="random_pick">Random Pick</string>
+    <string name="delete_list">Delete</string>
+    <string name="add_listname">Add a list name</string>
+    <string name="about_text">This application is made to pick a random item in a custom list.\n\nDesigned by Julien Lussiez\n</string>
+    <string name="add_item">Add item</string>
+    <string name="list_loaded">List Loaded</string>
+    <string name="list_saved">List Saved</string>
+    <string name="list_deleted">List Deleted</string>
+    <string name="list_updated">List Updated</string>
+    <string name="theme">Theme</string>
+</resources>

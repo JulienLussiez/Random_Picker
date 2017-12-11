@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="uitools-1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/4dd265d9be88d1fad90a1686f0f30f6c65afc72b/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/4dd265d9be88d1fad90a1686f0f30f6c65afc72b/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shell-software/uitools/1.1.0/54491914dfef31b0eac4b2d78583e129ea832be7/uitools-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_item">सामान जोडें</string>
+    <string name="about">के बारे में</string>
+    <string name="about_text">यह एप्लिकेशन आपको एक कस्टम सूची में एक आइटम को यादृच्छिक रूप से चुनने देता है। जूलियन लुसीज़ द्वारा डिज़ाइन किया गया</string>
+    <string name="add_listname">एक सूची नाम जोड़ें</string>
+    <string name="at_least_one">कम से कम एक आइटम जोड़ें</string>
+    <string name="delete_list">फ़ाइल को हटाएं</string>
+    <string name="list_deleted">सूची हटाई गई</string>
+    <string name="list_loaded">सूची भरी हुई है</string>
+    <string name="list_saved">सूची सहेजी गई</string>
+    <string name="list_updated">सूची अपडेट की गई</string>
+    <string name="load_list">लोड सूची</string>
+    <string name="new_list">नई सूची</string>
+    <string name="random_pick">यादृच्छिक पिक</string>
+    <string name="save_list">सूची को बचाने</string>
+</resources>

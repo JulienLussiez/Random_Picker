@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_item">добавить элемент</string>
+    <string name="about">около</string>
+    <string name="about_text">Это приложение сделано для выбора случайного элемента в пользовательском списке. Разработан Жюльеном Люссицем</string>
+    <string name="add_listname">Добавить имя списка</string>
+    <string name="at_least_one">Добавьте хотя бы один элемент</string>
+    <string name="delete_list">Удалить</string>
+    <string name="list_deleted">Список удаленных</string>
+    <string name="list_loaded">Список загружен</string>
+    <string name="list_saved">Список сохраненных</string>
+    <string name="list_updated">Список обновлен</string>
+    <string name="load_list">нагрузка</string>
+    <string name="new_list">Новый список</string>
+    <string name="random_pick">Случайный выбор</string>
+    <string name="save_list">Сохранить</string>
+</resources>
