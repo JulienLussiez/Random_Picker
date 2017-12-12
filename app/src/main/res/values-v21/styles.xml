@@ -100,4 +100,58 @@
         <item name="colorControlNormal">#ffa726</item>
     </style>
 
+    <style name="DeepOrangeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ff5722</item>
+        <item name="colorPrimaryDark">#c41c00</item>
+        <item name="colorAccent">#ff8a50</item>
+        <item name="colorControlHighlight">#ff5722</item>
+        <item name="colorControlNormal">#ff5722</item>
+    </style>
+
+    <style name="BrownTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#795548</item>
+        <item name="colorPrimaryDark">#4b2c20</item>
+        <item name="colorAccent">#a98274</item>
+        <item name="colorControlHighlight">#795548</item>
+        <item name="colorControlNormal">#795548</item>
+    </style>
+
+    <style name="GreyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9e9e9e</item>
+        <item name="colorPrimaryDark">#707070</item>
+        <item name="colorAccent">#cfcfcf</item>
+        <item name="colorControlHighlight">#9e9e9e</item>
+        <item name="colorControlNormal">#9e9e9e</item>
+    </style>
+
+    <style name="BlueGreyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#607d8b</item>
+        <item name="colorPrimaryDark">#34515e</item>
+        <item name="colorAccent">#8eacbb</item>
+        <item name="colorControlHighlight">#607d8b</item>
+        <item name="colorControlNormal">#607d8b</item>
+    </style>
+
+    <style name="DeepBlueGreyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#455a64</item>
+        <item name="colorPrimaryDark">#1c313a</item>
+        <item name="colorAccent">#718792</item>
+        <item name="colorControlHighlight">#455a64</item>
+        <item name="colorControlNormal">#455a64</item>
+    </style>
+
+    <style name="BlackTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#484848</item>
+        <item name="colorControlHighlight">#212121</item>
+        <item name="colorControlNormal">#212121</item>
+    </style>
+
 </resources>
