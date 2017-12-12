@@ -84,8 +84,17 @@ public class MainActivity extends AppCompatActivity {
             case "cyan":
                 setTheme(R.style.CyanTheme);
                 break;
+            case "teal":
+                setTheme(R.style.TealTheme);
+                break;
             case "green":
                 setTheme(R.style.GreenTheme);
+                break;
+            case "amber":
+                setTheme(R.style.AmberTheme);
+                break;
+            case "orange":
+                setTheme(R.style.OrangeTheme);
                 break;
         }
         setContentView(R.layout.main);
@@ -211,7 +220,10 @@ public class MainActivity extends AppCompatActivity {
                 Button indigo = (Button) dialog.findViewById(R.id.indigo);
                 Button blue = (Button) dialog.findViewById(R.id.blue);
                 Button cyan = (Button) dialog.findViewById(R.id.cyan);
+                Button teal = (Button) dialog.findViewById(R.id.teal);
                 Button green = (Button) dialog.findViewById(R.id.green);
+                Button amber = (Button) dialog.findViewById(R.id.amber);
+                Button orange = (Button) dialog.findViewById(R.id.orange);
                 red.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -272,10 +284,40 @@ public class MainActivity extends AppCompatActivity {
                         overridePendingTransition(0, 0);
                     }
                 });
+                teal.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        themeColor.edit().putString("themeColor", "teal").apply();
+                        finish();
+                        overridePendingTransition(0, 0);
+                        startActivity(getIntent());
+                        overridePendingTransition(0, 0);
+                    }
+                });
                 green.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         themeColor.edit().putString("themeColor", "green").apply();
+                        finish();
+                        overridePendingTransition(0, 0);
+                        startActivity(getIntent());
+                        overridePendingTransition(0, 0);
+                    }
+                });
+                amber.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        themeColor.edit().putString("themeColor", "amber").apply();
+                        finish();
+                        overridePendingTransition(0, 0);
+                        startActivity(getIntent());
+                        overridePendingTransition(0, 0);
+                    }
+                });
+                orange.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        themeColor.edit().putString("themeColor", "orange").apply();
                         finish();
                         overridePendingTransition(0, 0);
                         startActivity(getIntent());

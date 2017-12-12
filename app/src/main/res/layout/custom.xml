@@ -97,16 +97,16 @@
             android:elevation="0dp" />
 
         <Button
-            android:id="@+id/yellow"
+            android:id="@+id/amber"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="8dp"
             android:background="@drawable/custom_shape"
-            android:backgroundTint="#ffee58"
+            android:backgroundTint="#ffca28"
             android:elevation="0dp" />
 
         <Button
-            android:id="@+id/Orange"
+            android:id="@+id/orange"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="8dp"
