@@ -138,9 +138,9 @@ public class MainActivity extends AppCompatActivity {
 					fabButton.setImageResource(R.drawable.ic_shuffle_black_24dp);
                 }
                 else {
+                    edit_listdata.setText("");
                     edit_listdata.setVisibility(View.GONE);
                     edit_item.setVisibility(View.VISIBLE);
-                    edit_listdata.setText("");
                     list.clear();
                     ((BaseAdapter)listview1.getAdapter()).notifyDataSetChanged();
                     setTitle(getResources().getString(R.string.new_list));
@@ -192,7 +192,6 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                         }
-                        deleteDisabled = 0;
                         i = 0;
                         edit_listdata.setVisibility(View.GONE);
                         edit_item.setVisibility(View.VISIBLE);
@@ -432,6 +431,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Click action
                 if (deleteDisabled == 1) {
+                    edit_listdata.setText("");
                     edit_listdata.setVisibility(View.GONE);
                     edit_item.setVisibility(View.VISIBLE);
                     fab.setImageResource(R.drawable.ic_shuffle_black_24dp);
@@ -478,6 +478,30 @@ public class MainActivity extends AppCompatActivity {
                 }
 			}
 		});
+//        listview1.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+//            @Override
+//            public boolean onItemLongClick(AdapterView _parent, View _view, final int _position, long _id) {
+//                if (deleteDisabled == 0) {
+////                    list.remove((int) (_position));
+//                    AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+//                    alertDialog.setTitle("Edit item");
+//                    alertDialog.setMessage("test");
+//                    alertDialog.show();
+//
+//                    ((BaseAdapter) listview1.getAdapter()).notifyDataSetChanged();
+//                }
+//                else {
+//                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//                        Snackbar mySnackbar = Snackbar.make(findViewById(R.id.myCoordinatorLayout), "Save or cancel to edit this item", Snackbar.LENGTH_SHORT);
+//                        mySnackbar.show();
+//                    }
+//                    else {
+//                        showMessage("Save or cancel to edit this item");
+//                    }
+//                }
+//                return true;
+//            }
+//        });
 		edit_listdata.addTextChangedListener(new TextWatcher() {
 			@Override
 			public void beforeTextChanged(CharSequence _text, int _start, int _count, int _after) {
@@ -505,6 +529,7 @@ public class MainActivity extends AppCompatActivity {
 				}
 			}
 		});
+
 		edit_listdata.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _v) {

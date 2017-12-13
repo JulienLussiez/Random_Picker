@@ -1,4 +1,0 @@
-#Tue Dec 12 23:16:27 CET 2017
-base.0=D\:\\OneDrive\\Programmation\\Random Picker\\Random Picker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
