@@ -14,4 +14,5 @@
     <string name="new_list">新名单</string>
     <string name="random_pick">随机选取器</string>
     <string name="save_list">保存存档</string>
+    <string name="theme">主题</string>
 </resources>

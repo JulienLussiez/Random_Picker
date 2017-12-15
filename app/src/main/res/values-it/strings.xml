@@ -14,4 +14,5 @@
     <string name="new_list">Nuova lista</string>
     <string name="random_pick">Scelta casuale</string>
     <string name="save_list">Salvare</string>
+    <string name="theme">Tema</string>
 </resources>

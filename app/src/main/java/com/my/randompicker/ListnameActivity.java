@@ -59,6 +59,39 @@ public class ListnameActivity extends AppCompatActivity {
 			case "blue":
 				setTheme(R.style.BlueTheme);
 				break;
+			case "cyan":
+				setTheme(R.style.CyanTheme);
+				break;
+			case "teal":
+				setTheme(R.style.TealTheme);
+				break;
+			case "green":
+				setTheme(R.style.GreenTheme);
+				break;
+			case "amber":
+				setTheme(R.style.AmberTheme);
+				break;
+			case "orange":
+				setTheme(R.style.OrangeTheme);
+				break;
+			case "deepOrange":
+				setTheme(R.style.DeepOrangeTheme);
+				break;
+			case "brown":
+				setTheme(R.style.BrownTheme);
+				break;
+			case "grey":
+				setTheme(R.style.GreyTheme);
+				break;
+			case "blueGrey":
+				setTheme(R.style.BlueGreyTheme);
+				break;
+			case "deepBlueGrey":
+				setTheme(R.style.DeepBlueGreyTheme);
+				break;
+			case "black":
+				setTheme(R.style.BlackTheme);
+				break;
 		}
 		setContentView(R.layout.listname);
 		initialize();

@@ -544,9 +544,11 @@ public class MainActivity extends AppCompatActivity {
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                             Snackbar mySnackbar = Snackbar.make(findViewById(R.id.myCoordinatorLayout), "List Updated", Snackbar.LENGTH_SHORT);
                             mySnackbar.show();
+                            deleteDisabled = 0;
                         }
                         else {
                             showMessage("List Updated");
+                            deleteDisabled = 0;
                         }
 						setTitle(edit_listdata.getText().toString());
 					}
@@ -556,9 +558,11 @@ public class MainActivity extends AppCompatActivity {
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                             Snackbar mySnackbar = Snackbar.make(findViewById(R.id.myCoordinatorLayout), getResources().getString(R.string.list_saved), Snackbar.LENGTH_SHORT);
                             mySnackbar.show();
+                            deleteDisabled = 0;
                         }
                         else {
                             showMessage("List Saved");
+                            deleteDisabled = 0;
                         }
 					}
 					i = 0;
